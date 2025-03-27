@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeçalho Reduzível</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 24px;
+            transition: all 0.3s ease;
+        }
+        body:has(.content:before) .header {
+            padding: 10px;
+            font-size: 18px;
+        }
+        .content {
+            margin-top: 80px;
+            padding: 20px;
+            height: 2000px; /* Simula conteúdo longo */
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Cabeçalho Fixado</div>
+    <div class="content">
+        <p>Role a página para ver o efeito.</p>
+    </div>
+</body>
+</html>

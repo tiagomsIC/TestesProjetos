@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+/* Estilos para o menu fixo */
+nav {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+body {
+  padding-top: 60px; /* Deixa espaço para o menu fixo */
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bgimg-1 {
+  background-image: url("./img/1987 Suvaco Isabel.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("./img/1987mspb.jpg");
+  background-color: #00bf63;
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("./img/1987 Claudio Lobato (1).jpg");
+
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("./img/1987 Suvaco e meu ninho.jpg");
+  background-color: #00bf63;
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("./img/1987 Suvaco 3.jpg");
+  background-color: #004aad;
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.contexto {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 75%;
+  color: #000;
+  background-color: #ddd;
+  margin: auto;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Menu fixo superior -->
+<nav>
+  <a href="#">Menu 1</a>
+  <a href="#">Menu 2</a>
+  <a href="#">Menu 3</a>
+  <a href="#">Menu 4</a>
+</nav>
+
+
+<div style="color: #777;background-color:#00bf63;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">Desfile</h3>
+</div>
+
+<div class="bgimg-5">
+    
+</div>
+
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#004aad;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>VER GALERIA</p>
+    </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Mestre-Sala e Porta-Bandeira</h3>
+</div>
+
+<div class="bgimg-2">
+  
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>VER GALERIA</p>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">Artes do Desfile</h3>
+</div>
+
+<div class="bgimg-3">
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>VER GALERIA</p>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">Samba do ano</h3>
+</div>
+
+<div class="bgimg-4">
+  
+</div>
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>VER GALERIA</p>
+    </div>
+  </div>
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">COOL!</span>
+  </div>
+</div>
+
+</body>
+</html>
